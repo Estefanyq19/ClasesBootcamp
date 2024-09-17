@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="app-title">Hola soy: un header</h1>
+            <h2 id="app-subtitle">Texto visible e invisible</h2>
+            <button type="button" onclick="toggleSubtitle()">Cambio de estado</button>
+            <button type="button" onclick="fireConfetti()">FELICIDADES!!</button>
+        </div>
+    </header>
+
+    <menu>
+        <ul id="parent">
+            <li class="menu-items">
+                <a href="#">About me</a>
+            </li>
+
+            <li class="menu-items">
+                <a href="#">Blogs</a>
+            </li>
+
+            <li class="menu-items">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </menu>
+
+    <section id="app-about">
+
+    </section>
+
+
+    <!--Libreria confetti-->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <!--JS-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
